@@ -12,8 +12,19 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
-        android:background="@drawable/roundcorner">
+        android:layout_margin="8dp"
+        android:layout_weight="3"
+        android:background="@drawable/roundcorner"
+        android:padding="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="6dp"
+            android:text="일일목표"
+            android:textSize="23sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,8 +38,8 @@
             android:layout_height="25dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="19dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="20dp"
             android:src="@drawable/ic_plus" />
     </RelativeLayout>
 
@@ -36,15 +47,27 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
-        android:background="@drawable/roundcornercolor">
+        android:layout_margin="8dp"
+        android:layout_weight="3"
+        android:background="@drawable/roundcornercolor"
+        android:padding="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="6dp"
+            android:text="최종목표"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:textColor="#33FF33"
             android:text="목표를 설정하세요"
+            android:textColor="#33FF33"
             android:textSize="18sp" />
 
         <ImageView
@@ -61,15 +84,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.8"
-        >
+        android:layout_weight="0.8">
+
         <TextView
-            android:layout_above="@id/progressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="달성률"
+            android:layout_above="@id/progressBar"
             android:layout_marginLeft="16dp"
-            android:textSize="13sp" />
+            android:text="달성률"
+            android:textSize="10dp"
+            android:textStyle="bold" />
 
         <ProgressBar
             android:id="@+id/progressBar"
@@ -83,17 +107,22 @@
     </RelativeLayout>
 
     <!-- 달력 -->
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="6"
+        android:padding="3dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/roundcorner">
 
         <CalendarView
             android:id="@+id/calendar"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-    </FrameLayout>
+    </RelativeLayout>
 
 </LinearLayout>
 
