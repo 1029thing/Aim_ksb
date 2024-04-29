@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141846110400",
+    "firebase_url": "https://aimcapstone-default-rtdb.firebaseio.com",
+    "project_id": "aimcapstone",
+    "storage_bucket": "aimcapstone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141846110400:android:35ba413b478ba3014d4d25",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141846110400-fjtm1rpta4nbgqes5dpkjqaf1p9ro3p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6kWO1gyK3OytqiEAF_QAPrkJHN3r0fyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141846110400-fjtm1rpta4nbgqes5dpkjqaf1p9ro3p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

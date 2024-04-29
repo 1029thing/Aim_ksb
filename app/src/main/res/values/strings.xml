@@ -4,4 +4,6 @@
     <string name="title_challenge">Challenge</string>
     <string name="title_clubs">Clubs</string>
     <string name="title_profiles">Profile</string>
+    <string name="google_login_client_id">284753668861-v07afk2b2mj8md6k8l8nu2tvvbp8va6p.apps.googleusercontent.com</string>
+    <string name="kakao_app_key">b46d430bee1f7138ba963a99ab135dad</string>
 </resources>
