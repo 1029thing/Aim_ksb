@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private String email;
     private String name;
 
+    private String loginType;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = getIntent();
          email = intent.getStringExtra("email");
          name = intent.getStringExtra("name");
+         loginType = intent.getStringExtra("loginType");
 
 
         BottomNavigationView navView = findViewById(R.id.nav_view);

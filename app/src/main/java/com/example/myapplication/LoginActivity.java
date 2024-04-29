@@ -92,6 +92,7 @@
                         Intent intent = new Intent(this, MainActivity.class);
                         intent.putExtra("email", user.getKakaoAccount().getEmail());
                         intent.putExtra("name", user.getKakaoAccount().getProfile().getNickname());
+                        intent.putExtra("loginType", "Kakao");
                         startActivity(intent);
                     }
                 }
@@ -126,6 +127,7 @@
                 Intent intent = new Intent(this, MainActivity.class);
                 intent.putExtra("email",email);
                 intent.putExtra("name",name);
+                intent.putExtra("loginType", "Google");
                 startActivity(intent);
             }
         }
