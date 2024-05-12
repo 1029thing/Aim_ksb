@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.challenge.ChallengeFragment"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -51,22 +52,18 @@
                 android:textSize="18sp"
                 android:paddingRight="50dp"
                 android:textStyle="bold"
-
-                android:text = "참가인원 "
-                />
+                android:text = "참가인원 " />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.15"
-                android:paddingLeft="10dp"
-
-                />
+                android:paddingLeft="10dp" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -99,37 +96,13 @@
                     android:orientation="vertical"
                     android:gravity="center_horizontal"
                     android:padding="8dp">
-
-
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="챌린지1"
                         android:textColor="@color/black"/>
                 </LinearLayout>
-
-
-
-
-
-
-
-
-
-
             </LinearLayout>
-
         </HorizontalScrollView>
-
-
-
-
-
-
-
     </LinearLayout>
-
-
-
 </ScrollView>

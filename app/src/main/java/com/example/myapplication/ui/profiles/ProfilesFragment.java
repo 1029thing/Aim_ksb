@@ -12,6 +12,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.myapplication.databinding.FragmentProfilesBinding;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class ProfilesFragment extends Fragment {
 
     private FragmentProfilesBinding binding;
@@ -24,8 +26,7 @@ public class ProfilesFragment extends Fragment {
         binding = FragmentProfilesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textProfiles;
-        profilesViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 
